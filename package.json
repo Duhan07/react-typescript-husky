@@ -20,7 +20,8 @@
     "lint": "eslint '*/**/*.{js,ts,tsx}'",
     "lint:fix": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
     "format": "prettier --write \"*/**/*.{js,ts,tsx,jsx,json,md}\"",
-    "pc": "yarn lint --fix && yarn format"
+    "pc": "yarn lint --fix && yarn format",
+    "prepare": "husky"
   },
   "eslintConfig": {
     "extends": [
@@ -50,6 +51,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.34.1",
     "globals": "^15.3.0",
+    "husky": "^9.0.11",
     "prettier": "3.2.5",
     "typescript-eslint": "^7.10.0"
   }
